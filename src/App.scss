@@ -1,0 +1,13 @@
+@import "~antd/dist/antd.css";
+
+$hover-textIcon: #999c03;
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  .App {
+    text-align: center;
+  }
+}

@@ -1,0 +1,78 @@
+@import "./../../../App.scss";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding: 0 20px 0 110px;
+  // transition: all 0.3s ease;
+  height: auto;
+  min-height: 75px;
+  line-height: 75px;
+  background-color: #ccc;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 7%);
+  transition: top 0.4s ease-out;
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo__link {
+      flex: 1;
+      .logo__image {
+        display: block;
+        height: 35px;
+      }
+    }
+    ul.list-actions {
+      flex: 3;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        padding-left: 20px;
+        font-size: 12px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        .form-search {
+          cursor: pointer;
+          .MuiBox-root {
+            display: flex;
+            align-items: center;
+            .css-1tcs2i1-MuiInputBase-root-MuiInput-root:after {
+              border-bottom: 2px solid $hover-textIcon;
+            }
+            .search-icon {
+              margin-left: -28px;
+              z-index: 1000;
+            }
+          }
+        }
+        &.common-icon-dropdown {
+          display: flex;
+          align-items: center;
+        }
+        &.option-header {
+          .language {
+            width: 20px;
+          }
+          .text-language {
+            padding-left: 6px;
+          }
+        }
+        &.option-header:hover {
+          color: $hover-textIcon;
+        }
+      }
+    }
+  }
+}
+.hide {
+  top: -80px;
+  opacity: 0.5;
+  transition: top 0.4s ease-out;
+}

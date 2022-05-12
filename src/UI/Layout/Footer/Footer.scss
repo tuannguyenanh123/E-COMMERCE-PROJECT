@@ -1,0 +1,40 @@
+footer.footer {
+  margin: 0 110px;
+  .footer-main {
+    // display: flex;
+    // justify-content: space-between;
+    padding: 20px 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+
+    .title {
+      text-align: left;
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+    ul {
+      padding-left: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      li {
+        cursor: pointer;
+      }
+    }
+  }
+  .footer-copyright {
+    padding: 10px 0;
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+    a {
+      img {
+        opacity: 0.6;
+      }
+    }
+  }
+}
