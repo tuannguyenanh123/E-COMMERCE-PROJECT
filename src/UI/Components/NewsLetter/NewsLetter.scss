@@ -18,8 +18,9 @@
       & > input {
         text-align: center;
         padding-bottom: 14px;
-        border-bottom: 1px solid #000000;
+        border-bottom: 1px solid $signature-color;
         &:focus {
+          border: none;
           border-bottom: 1px solid $hover-textIcon;
         }
       }
@@ -29,10 +30,10 @@
     }
     .ant-input-group-addon {
       .ant-btn-primary {
-        border: 3px solid #000000;
-        background: #000000;
+        border: 3px solid $signature-color;
+        background: $signature-color;
         &:hover {
-          color: #000000;
+          color: $signature-color;
           background: white;
         }
       }

@@ -10,6 +10,9 @@ const Banner = () => {
           type="video/mp4"
         />
       </video>
+      <a class="scrollToId" href="#IdOfContent">
+        <div className="icon-scroll"></div>
+      </a>
     </div>
   );
 };
