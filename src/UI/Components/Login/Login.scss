@@ -1,0 +1,84 @@
+@import "./../../../App.scss";
+
+.content-main.login {
+  padding-left: -webkit-calc(110px + 250px);
+  padding-left: calc(110px + 250px);
+  padding-right: 110px;
+  padding-bottom: 60px;
+  padding-top: 130px;
+  .login {
+    margin-bottom: 100px;
+    .heading-title {
+      text-align: left;
+      font-size: 24px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      margin-bottom: $margin-bottom-title;
+      a {
+        color: $signature-color;
+      }
+    }
+    .login-content-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      h2 {
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 25px;
+      }
+      .error {
+        width: 100%;
+        background-color: #f8d7da;
+        color: #721c24;
+        border: #d8abaf;
+        border-radius: 5px;
+        padding: 20px;
+      }
+      p {
+        font-size: 16px;
+      }
+      .form {
+        width: 100%;
+        margin-top: 19px;
+        margin-bottom: 30px;
+        color: $signature-color;
+        form {
+          display: flex;
+          justify-content: flex-start;
+          .form-login {
+            width: 80%;
+            margin: 0;
+            .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+              color: $text-muted-color;
+              font-size: 20px;
+            }
+            .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+              border-bottom: 2px solid $signature-color;
+            }
+          }
+        }
+      }
+    }
+    .login-content-2 {
+      text-align: left;
+      h2 {
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 25px;
+      }
+      p {
+        margin-bottom: 31px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .content-main.login {
+    padding: 100px 10px 50px !important;
+    .MuiGrid-item.guest-new {
+      padding-top: 50px !important;
+    }
+  }
+}

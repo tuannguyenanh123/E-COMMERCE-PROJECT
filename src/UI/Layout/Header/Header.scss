@@ -7,23 +7,37 @@
   right: 0;
   z-index: 999;
   padding: 0 20px 0 110px;
-  // transition: all 0.3s ease;
   height: auto;
   min-height: 75px;
   line-height: 75px;
-  background-color: #ccc;
+  background-color: transparent;
   box-shadow: 0 1px 2px rgb(0 0 0 / 7%);
-  transition: top 0.4s ease-out;
+  transition: all 0.4s ease-out;
   .header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .wishlist--responsive,
+    .bag--responsive {
+      display: none;
+    }
+    .toggle-left {
+      display: none;
+      height: 24px;
+      line-height: 24px;
+      svg {
+        font-size: 24px;
+      }
+    }
     .logo__link {
       flex: 1;
       .logo__image {
         display: block;
         height: 35px;
       }
+    }
+    .toggle-right {
+      display: none;
     }
     ul.list-actions {
       flex: 3;
@@ -33,11 +47,38 @@
       list-style: none;
       margin: 0;
       padding: 0;
+      li.option-header {
+        span.login-logout {
+          position: relative;
+        }
+      }
+      li.option-header.bag {
+        position: relative;
+        .bag-quantity {
+          position: absolute;
+          top: -20px;
+          left: 35px;
+          span {
+            background-color: #909090;
+            padding: 5px;
+            border-radius: 50%;
+          }
+        }
+      }
       li {
         padding-left: 20px;
         font-size: 12px;
         transition: all 0.3s ease;
         cursor: pointer;
+        &:hover {
+          color: $hover-textIcon;
+        }
+        a {
+          color: unset;
+        }
+        &:hover {
+          color: $hover-textIcon;
+        }
         .form-search {
           cursor: pointer;
           .MuiBox-root {
@@ -52,27 +93,187 @@
             }
           }
         }
-        &.common-icon-dropdown {
+        &.option-language.common-icon-dropdown {
           display: flex;
           align-items: center;
+          .ant-dropdown-trigger {
+            padding-left: 8px;
+            .ant-space-item:last-child {
+              display: flex;
+            }
+          }
         }
-        &.option-header {
+        &.option-language {
           .language {
-            width: 20px;
+            width: 24px;
           }
           .text-language {
             padding-left: 6px;
           }
         }
-        &.option-header:hover {
-          color: $hover-textIcon;
+        &.option-header {
+          position: relative;
+          .option-header-app {
+            display: flex;
+            align-items: center;
+          }
+          .option-header-app-list {
+            position: absolute;
+            will-change: transform;
+            top: 0px;
+            left: 0px;
+            transform: translate3d(20px, 49px, 0px);
+            text-align: left;
+            background-color: white;
+            min-width: 150px;
+            padding-left: 20px;
+            border-radius: 4px;
+            a {
+              display: block;
+              transition: all 0.5s ease;
+
+              &:hover {
+                background-color: #ccc;
+              }
+              img {
+                width: 20px;
+                margin-right: 8px;
+              }
+              span {
+                transition: all 0.3s ease;
+                &:hover {
+                  color: $hover-textIcon;
+                }
+                color: $signature-color;
+              }
+            }
+          }
         }
+        &.option-header.common-icon-dropdown {
+          .ant-space-item:last-child {
+            display: flex;
+          }
+        }
+      }
+    }
+    ul.options {
+      display: none !important;
+    }
+  }
+  .category-actions {
+    .action-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      .drawer-toggle {
+        cursor: pointer;
+      }
+      .grid-col-show:before {
+        content: "";
+        position: relative;
+        width: 1px;
+        height: 20px;
+        background-color: #706a6a;
+        margin: auto 15px;
       }
     }
   }
 }
 .hide {
-  top: -80px;
-  opacity: 0.5;
-  transition: top 0.4s ease-out;
+  // top: -80px;
+  background-color: #ccc;
+  transition: all 0.4s ease-out;
+}
+@media (max-width: 2000px) {
+}
+@media (max-width: 1440px) {
+}
+@media (min-width: 767px) and (max-width: 1160px) {
+  ul.list-actions {
+    height: 100px;
+    line-height: 14px;
+  }
+}
+@media (max-width: 768px) {
+  a {
+    color: $signature-color;
+    &:hover {
+      color: $hover-textIcon;
+    }
+  }
+  svg:hover {
+    color: $hover-textIcon;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .header {
+    padding: 0 15px;
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      .toggle-left {
+        display: block !important;
+      }
+      ul {
+        display: none !important;
+      }
+      .logo__link {
+        padding-left: 20px;
+        flex: 0;
+        img {
+        }
+      }
+      .options {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .toggle-right {
+          padding: 0 4px;
+          display: block !important;
+          svg {
+            font-size: 26px;
+          }
+        }
+
+        .wishlist--responsive {
+          padding: 0 8px !important;
+        }
+        .wishlist--responsive,
+        .bag--responsive {
+          display: block !important;
+          padding: 0 4px;
+          z-index: 1000;
+        }
+      }
+      ul.options.active {
+        height: 100vh;
+        font-size: 12px;
+        padding: 18px 120px 20px 20px;
+        opacity: 0.9;
+        position: fixed;
+        margin: 0;
+        list-style: none;
+        background-color: white;
+        top: 0;
+        right: 0;
+        display: block !important;
+        transition: all 0.3s ease !important;
+        transition: 350ms !important;
+        li {
+          height: 20px;
+          line-height: 20px;
+          margin-bottom: 20px;
+        }
+        .option-language.common-icon-dropdown {
+          img.language {
+            height: 20px;
+            width: 20px;
+          }
+          span {
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+  }
 }

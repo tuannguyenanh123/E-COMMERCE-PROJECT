@@ -1,0 +1,32 @@
+@import "./../../../App.scss";
+
+.doneOrder__section {
+  position: relative;
+  //   padding-left: -webkit-calc(110px px + 250px);
+  //   padding-left: calc(110px + 250px);
+  //   padding-right: 110px;
+  //   padding-bottom: 60px;
+  padding-top: 130px;
+  text-align: center;
+  font-size: 24px;
+  h1 {
+    font-weight: bold;
+  }
+  .totalPrice {
+    margin-bottom: 40px;
+  }
+  .start-shopping {
+    a {
+      color: $signature-color;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        font-size: 24px;
+      }
+      span {
+        padding-left: 10px;
+      }
+    }
+  }
+}

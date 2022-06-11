@@ -1,0 +1,50 @@
+@import "./..//../../App.scss";
+
+.content-main {
+  .contact {
+    .heading-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: $margin-bottom-title;
+    }
+    .contact-title {
+      border-bottom: 1px solid $signature-color;
+      border-top: 1px solid $signature-color;
+      margin-bottom: 20px;
+      p {
+        margin-bottom: 0;
+        padding: 5px 0;
+      }
+    }
+    p.title-sub {
+      margin-bottom: 30px;
+      b {
+        a {
+          color: unset;
+        }
+      }
+    }
+    .accor-main {
+      p.desc-icon {
+        display: flex;
+        align-items: center;
+        svg {
+          margin-right: 10px;
+        }
+      }
+      p.desc-icon.social {
+        span {
+          margin-right: 10px;
+        }
+      }
+      .detail-description {
+        padding-left: 27px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .content-main.contact {
+    padding: 100px 10px 50px !important;
+  }
+}

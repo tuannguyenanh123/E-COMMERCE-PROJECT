@@ -1,0 +1,33 @@
+@import "./../../../App.scss";
+
+.popup {
+  position: fixed;
+  z-index: 999;
+  bottom: 25px;
+  right: 100px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.box-modal {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 60px 0 !important;
+  a {
+    color: unset;
+  }
+  &:hover {
+    background-color: $signature-color;
+    h2#modal-modal-title {
+      color: white !important;
+    }
+  }
+}
+.box-modal.css-1wnsr1i {
+  top: 30%;
+}
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  background-color: rgb(255 255 255 / 80%) !important;
+}

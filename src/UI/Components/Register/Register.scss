@@ -1,0 +1,105 @@
+@import "./../.././../App.scss";
+
+.register {
+  position: relative;
+  padding-left: -webkit-calc(110px + 250px);
+  padding-left: calc(110px + 250px);
+  padding-right: 110px;
+  padding-bottom: 60px;
+  padding-top: 130px;
+  text-align: left;
+  .register-content {
+    margin-bottom: 100px;
+    h1.heading-title {
+      font-weight: bold;
+      margin-bottom: $margin-bottom-title;
+    }
+    .heading-desc {
+      p {
+        margin-bottom: 10px;
+      }
+    }
+    .register-main {
+      margin-top: 40px;
+      h2 {
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+      .errors {
+        position: relative;
+        background-color: #f8d7da;
+        color: #721c24;
+        border: #d8abaf;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: $margin-product;
+        svg {
+          position: absolute;
+          right: 20px;
+          top: 10px;
+          font-size: 24px;
+          cursor: pointer;
+        }
+      }
+      form {
+        max-width: 50%;
+        .txt-field {
+          position: relative;
+          border-bottom: 2px solid $signature-color;
+          margin: 30px 0;
+          input:focus ~ span::before,
+          input:valid ~ span::before {
+            width: 100%;
+            background: $hover-textIcon;
+          }
+          input:focus ~ label,
+          input:valid ~ label {
+            top: -5px;
+          }
+          input {
+            width: 100%;
+            padding: 0 5px;
+            height: 40px;
+            font-size: 16px;
+            border: none;
+            background: none;
+            outline: none;
+          }
+          label {
+            position: absolute;
+            top: 50%;
+            left: 5px;
+            color: $text-muted-color;
+            transform: translateY(-50%);
+            font-size: 16px;
+            pointer-events: none;
+            transition: 0.5s;
+          }
+          span::before {
+            content: " ";
+            position: absolute;
+            top: 40px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: $signature-color;
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+  .alert {
+    margin: 0;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .register {
+    padding: 100px 10px 50px !important;
+    label.isAgree {
+      font-size: 14px;
+    }
+  }
+}

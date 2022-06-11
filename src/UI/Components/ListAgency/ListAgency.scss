@@ -1,0 +1,39 @@
+@import "./../../../App.scss";
+
+.content-main {
+  position: relative;
+  padding-left: calc(110px + 250px);
+  padding-right: 110px;
+  padding-bottom: 60px;
+  padding-top: 130px;
+  .section-point-info {
+    .heading-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: $margin-bottom-title;
+      text-transform: uppercase;
+    }
+    .section-content {
+      tr {
+        border-bottom: 1px solid $signature-color;
+        td.image-thumbnail {
+          text-align: center;
+          img {
+            border: 1px solid #ccc;
+            padding: 4px;
+            object-fit: cover;
+            width: inherit;
+            max-width: 150px;
+            max-height: 150px;
+          }
+        }
+        .description {
+          padding-left: 20px;
+        }
+        .eye {
+          // display: flex;
+        }
+      }
+    }
+  }
+}

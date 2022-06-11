@@ -1,0 +1,110 @@
+@import "./../../../App.scss";
+
+.cart-section {
+  position: relative;
+  padding-left: -webkit-calc(110px + 250px);
+  padding-left: calc(110px + 250px);
+  padding-right: 110px;
+  padding-bottom: 60px;
+  padding-top: 130px;
+  .cart-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .cart-content {
+    .cart-empty {
+      font-size: 24px;
+      .start-shopping {
+        a {
+          color: $signature-color;
+          display: flex;
+          align-items: center;
+          svg {
+            font-size: 24px;
+          }
+          span {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+    .titles {
+      margin-bottom: $margin-product;
+      border-bottom: 1px solid $text-muted-color;
+      padding-bottom: 10px;
+      span.title {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+    .cart-items {
+      .cart-item {
+        border-bottom: 1px solid $text-muted-color;
+        padding-top: $margin-product;
+        padding-bottom: $margin-product;
+        .cart-desc {
+          display: flex;
+          flex-direction: column;
+        }
+        .cart-product {
+          img {
+            width: 100px;
+            max-width: 100%;
+          }
+        }
+        .cart-quantity {
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          svg {
+            cursor: pointer;
+            font-size: 24px;
+          }
+          svg,
+          .count {
+            padding-left: 8px;
+          }
+        }
+        .cart-price {
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          .symbol {
+            line-height: 12px;
+            font-size: 15px;
+            height: 16px;
+          }
+        }
+        .cart-status {
+          padding-top: 2px;
+          font-size: 12px;
+        }
+        .clear-item {
+          svg {
+            cursor: pointer;
+          }
+        }
+      }
+      .cart-item:last-child {
+        padding-bottom: $margin-product;
+        border-bottom: 1px solid $text-muted-color;
+      }
+    }
+    .total-product {
+      text-align: right;
+      padding-top: 10px;
+    }
+    .cart-actions {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-section.cart {
+    padding: 100px 20px 50px !important;
+  }
+}

@@ -1,0 +1,40 @@
+@import "./../../../App.scss";
+.product {
+  .thumb {
+    .cardIcon {
+      font-size: 26px;
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+      transition: all 0.3s ease;
+      color: $signature-color;
+      cursor: pointer;
+      svg:hover {
+        color: $signature-color-hover-icon;
+      }
+      svg {
+      }
+    }
+    img {
+      object-fit: cover;
+      cursor: pointer;
+      width: 100%;
+    }
+  }
+  .product-info {
+    padding-top: 20px;
+    color: $signature-color;
+    .name {
+      cursor: pointer;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .price {
+      .price-symbol {
+        font-size: 16px;
+        height: 20px;
+        line-height: 17px;
+      }
+    }
+  }
+}

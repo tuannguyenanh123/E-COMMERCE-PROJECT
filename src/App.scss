@@ -2,13 +2,132 @@
 
 $hover-textIcon: #999c03;
 $signature-color: #000000;
+$signature-color-hover-icon: #696868;
+$text-muted-color: #909090;
+$margin-bottom-title: 35px;
+$margin-product: 20px;
 
 body {
+  ul.ghide {
+    width: 130px;
+    height: 68px;
+    flex-direction: column;
+    li:last-child {
+      padding-right: 0;
+    }
+    .option-language-VN,
+    .option-language-EN,
+    .dropdown-item {
+      display: flex;
+      img {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+      }
+      .text-language {
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 600;
+        &:hover {
+          color: $hover-textIcon;
+        }
+      }
+    }
+    &.app {
+      width: 140px;
+    }
+  }
+
   margin: 0;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  :not(div#root) {
+  }
+
   .App {
-    text-align: center;
+    position: relative;
+    .button-login-reg {
+      .button-login-reg-detail {
+        transition: all 0.3s ease;
+        cursor: pointer;
+        padding: 8px 20px;
+        background-color: $signature-color;
+        color: white;
+        line-height: 21px;
+        height: 42px;
+        border: 3px solid $signature-color;
+        span {
+          // letter-spacing: 1px;
+          a {
+            color: unset;
+          }
+        }
+        &:hover {
+          background-color: white;
+          color: $signature-color;
+          border: 3px solid $signature-color;
+        }
+      }
+    }
+    .price {
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .price-symbol {
+        font-size: 20px;
+        font-size: 22px;
+        height: 20px;
+        line-height: 24px;
+      }
+    }
+    .pass {
+      margin-bottom: 30px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      input[type="checkbox"] {
+        appearance: none;
+        -webkit-appearance: none;
+        height: 20px;
+        width: 20px;
+        background-color: $text-muted-color;
+        border-radius: 2px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        &:after {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f00c";
+          font-size: 14px;
+          color: white;
+          display: none;
+        }
+        &:hover {
+          background-color: #a5a5a5;
+        }
+        &:checked {
+          background-color: $hover-textIcon;
+          &:after {
+            display: block;
+          }
+        }
+      }
+      label {
+        cursor: pointer;
+        a {
+          text-decoration: underline;
+          color: unset;
+          &:hover {
+            text-decoration: none;
+            color: $hover-textIcon;
+          }
+        }
+      }
+    }
   }
 }

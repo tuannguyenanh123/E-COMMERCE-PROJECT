@@ -1,0 +1,251 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "userName": "ANH TUAN",
+      "mail": "anhtuan120600@gmail.com",
+      "phone": "0353576660",
+      "isAgree": true
+    }
+  ],
+  "history": [
+    {
+      "id": "1",
+      "phone": "0353576660",
+      "items": [
+        {
+          "codeProduct": "A51648",
+          "sizeProduct": "S"
+        }
+      ]
+    },
+    {
+      "id": "N5K0HZWP9p4O3P750ebqa",
+      "phone": "0353576660",
+      "items": []
+    },
+    {
+      "id": "-PAfeFTNw4m1AsG28TMq5",
+      "phone": "0353576660",
+      "items": [
+        {
+          "id": 4,
+          "title": "aothun-04",
+          "price": "369000",
+          "image": "./../../../Images/Product/aothun3.jpeg",
+          "categorySlug": "ao-thun",
+          "slug": "ao-thun-co-det-kiem-4",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "codeProduct": "A26961",
+          "descriptionTitle": "Áo thun phiên bản Premium từ Mrsimple với độ hoàn thiện cao. Dáng áo vừa vặn mang phong cách hiện đại, đơn giản.",
+          "descriptionProduct": [
+            "Form Slimfit gen 1.",
+            "Vải Cotton 100%.",
+            "Mùa vải 04 có thiết kế và độ bền vượt trội."
+          ],
+          "measurementsImg": "./../../../Images/ImgMeasurement/measurement ao.jpeg",
+          "popupCareProductImg": "./../../../Images/ShowModalDetailProduct/aothun.jpg",
+          "imageDetail": {
+            "imageDetailMain": [
+              "./../../../Images/ProductDetail/aothunxanhden/macchinh1.jpeg",
+              "./../../../Images/ProductDetail/aothunxanhden/machchinh2.jpeg"
+            ],
+            "imageDetailSub": [
+              "./../../../Images/ProductDetail/aothunxanhden/macphu1.jpeg",
+              "./../../../Images/ProductDetail/aothunxanhden/phu2.jpeg",
+              "./../../../Images/ProductDetail/aothunxanhden/phu3.jpeg"
+            ]
+          },
+          "status": "Hiện còn hàng.",
+          "sizeProduct": "XL",
+          "quantityProduct": 1,
+          "cartQuantity": 1
+        }
+      ]
+    },
+    {
+      "id": "U0ai3Q8fIvLeNujPRkYrv",
+      "phone": "0353576660",
+      "items": [
+        {
+          "id": 2,
+          "title": "aothun-02",
+          "price": "369000",
+          "image": "./../../../Images/Product/aothun1.jpeg",
+          "categorySlug": "ao-thun",
+          "slug": "ao-thun-co-det-kiem-2",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "codeProduct": "A41513",
+          "descriptionTitle": "Chất vải dệt kim mềm mại, ít nhăn hơn so với cotton. May từ vải dệt kim.Khuyến khích giặt tay và tránh sấy nóng",
+          "descriptionProduct": [
+            "Form Slimfit gen 1.",
+            "Vải Cotton 100%.",
+            "Mùa vải 04 có thiết kế và độ bền vượt trội."
+          ],
+          "measurementsImg": "./../../../Images/ImgMeasurement/measurement ao.jpeg",
+          "popupCareProductImg": "./../../../Images/ShowModalDetailProduct/aothun.jpg",
+          "imageDetail": {
+            "imageDetailMain": [
+              "./../../../Images/ProductDetail/poloden/macchinh1.jpeg",
+              "./../../../Images/ProductDetail/poloden/macchinh2.jpeg"
+            ],
+            "imageDetailSub": [
+              "./../../../Images/ProductDetail/poloden/1024x153688B9zxtY5fJyH9bNZYjkaRpp01ZeCzkZ1O9vchLl.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536G2lZF5XrJp2GxHD7dmXSnmgb2UE6Z16eOrFSokOS.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536rj9liwlAQGBOig6tZ04xREFpwsWlB6MHzRbX4pc6.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536UEbsqOekBNdFiKwDyO2iM7aiXipTASK8SCY94ifX.jpeg"
+            ]
+          },
+          "status": "Hiện còn hàng.",
+          "sizeProduct": "L",
+          "quantityProduct": 1,
+          "cartQuantity": 1
+        }
+      ]
+    },
+    {
+      "id": "5XQIfcCDLSENMuV9Ig8FL",
+      "phone": "0353576660",
+      "items": [
+        {
+          "id": 2,
+          "title": "aothun-02",
+          "price": "369000",
+          "image": "./../../../Images/Product/aothun1.jpeg",
+          "categorySlug": "ao-thun",
+          "slug": "ao-thun-co-det-kiem-2",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "codeProduct": "A41513",
+          "descriptionTitle": "Chất vải dệt kim mềm mại, ít nhăn hơn so với cotton. May từ vải dệt kim.Khuyến khích giặt tay và tránh sấy nóng",
+          "descriptionProduct": [
+            "Form Slimfit gen 1.",
+            "Vải Cotton 100%.",
+            "Mùa vải 04 có thiết kế và độ bền vượt trội."
+          ],
+          "measurementsImg": "./../../../Images/ImgMeasurement/measurement ao.jpeg",
+          "popupCareProductImg": "./../../../Images/ShowModalDetailProduct/aothun.jpg",
+          "imageDetail": {
+            "imageDetailMain": [
+              "./../../../Images/ProductDetail/poloden/macchinh1.jpeg",
+              "./../../../Images/ProductDetail/poloden/macchinh2.jpeg"
+            ],
+            "imageDetailSub": [
+              "./../../../Images/ProductDetail/poloden/1024x153688B9zxtY5fJyH9bNZYjkaRpp01ZeCzkZ1O9vchLl.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536G2lZF5XrJp2GxHD7dmXSnmgb2UE6Z16eOrFSokOS.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536rj9liwlAQGBOig6tZ04xREFpwsWlB6MHzRbX4pc6.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536UEbsqOekBNdFiKwDyO2iM7aiXipTASK8SCY94ifX.jpeg"
+            ]
+          },
+          "status": "Hiện còn hàng.",
+          "sizeProduct": "L",
+          "quantityProduct": 1,
+          "cartQuantity": 1
+        }
+      ]
+    },
+    {
+      "id": "I_IOeU1MOMfZhuWTcVDym",
+      "phone": "0353576660",
+      "items": [
+        {
+          "id": 2,
+          "title": "aothun-02",
+          "price": "369000",
+          "image": "./../../../Images/Product/aothun1.jpeg",
+          "categorySlug": "ao-thun",
+          "slug": "ao-thun-co-det-kiem-2",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "codeProduct": "A41513",
+          "descriptionTitle": "Chất vải dệt kim mềm mại, ít nhăn hơn so với cotton. May từ vải dệt kim.Khuyến khích giặt tay và tránh sấy nóng",
+          "descriptionProduct": [
+            "Form Slimfit gen 1.",
+            "Vải Cotton 100%.",
+            "Mùa vải 04 có thiết kế và độ bền vượt trội."
+          ],
+          "measurementsImg": "./../../../Images/ImgMeasurement/measurement ao.jpeg",
+          "popupCareProductImg": "./../../../Images/ShowModalDetailProduct/aothun.jpg",
+          "imageDetail": {
+            "imageDetailMain": [
+              "./../../../Images/ProductDetail/poloden/macchinh1.jpeg",
+              "./../../../Images/ProductDetail/poloden/macchinh2.jpeg"
+            ],
+            "imageDetailSub": [
+              "./../../../Images/ProductDetail/poloden/1024x153688B9zxtY5fJyH9bNZYjkaRpp01ZeCzkZ1O9vchLl.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536G2lZF5XrJp2GxHD7dmXSnmgb2UE6Z16eOrFSokOS.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536rj9liwlAQGBOig6tZ04xREFpwsWlB6MHzRbX4pc6.jpeg",
+              "./../../../Images/ProductDetail/poloden/1024x1536UEbsqOekBNdFiKwDyO2iM7aiXipTASK8SCY94ifX.jpeg"
+            ]
+          },
+          "status": "Hiện còn hàng.",
+          "sizeProduct": "XL",
+          "quantityProduct": 1,
+          "cartQuantity": 1
+        },
+        {
+          "id": 1,
+          "title": "aothun-01",
+          "price": "469000",
+          "image": "./../../../Images/Product/aothun.jpeg",
+          "codeProduct": "A77637",
+          "descriptionTitle": "Áo thun phiên bản Premium từ Mrsimple với độ hoàn thiện cao. Dáng áo vừa vặn mang phong cách hiện đại, đơn giản.",
+          "descriptionProduct": [
+            "Form Slimfit gen 1.",
+            "Vải Cotton 100%.",
+            "Mùa vải 04 có thiết kế và độ bền vượt trội."
+          ],
+          "measurementsImg": "./../../../Images/ImgMeasurement/measurement ao.jpeg",
+          "popupCareProductImg": "./../../../Images/ShowModalDetailProduct/careProduct.jpg",
+          "imageDetail": {
+            "imageDetailMain": [
+              "./../../../Images/ProductDetail/thuntrangtron/macchinh1.jpeg",
+              "./../../../Images/ProductDetail/thuntrangtron/macchinh2.jpeg"
+            ],
+            "imageDetailSub": [
+              "./../../../Images/ProductDetail/thuntrangtron/macchinh2.jpeg",
+              "./../../../Images/ProductDetail/thuntrangtron/1024x1536wBWKQwQ6zUR7EMAIfROZYwUg77KfeqB7Ahi8bMVp.jpeg",
+              "./../../../Images/ProductDetail/thuntrangtron/1024x15365y0DqTy96glXBufGpvVvoqGU37ElarpEAZHM9g9w.jpeg",
+              "./../../../Images/ProductDetail/thuntrangtron/1024x15366Z092EOGZOeMybxUvzC6OTztTAC0CB9NVxr1eUDr.jpeg"
+            ]
+          },
+          "categorySlug": "ao-thun",
+          "slug": "ao-thun-co-det-kiem-1",
+          "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "status": "Hiện còn hàng.",
+          "sizeProduct": "XL",
+          "quantityProduct": 1,
+          "cartQuantity": 1
+        }
+      ]
+    }
+  ]
+}
